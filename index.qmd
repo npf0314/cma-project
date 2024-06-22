@@ -1,0 +1,44 @@
+---
+title: The title of your Semesterproject
+subtitle: A subtle subtitle
+author: Firstname1 Lastname1 and Firstname2 Lastname2
+format:
+  html:
+    code-fold: true
+execute:
+  warning: false
+  message: false
+lang: en  # switch to "de" if you write your report in german
+bibliography: bibliography.bib
+---
+
+```{r preprocessing}
+#| code-summary: preprocessing
+
+``` 
+
+
+## Abstract
+
+## Introduction
+
+@laube2011 investigate how temporal scale affects the calculation of movement parameters (speed, sinuosity and turning angle) of animal trajectories. 
+
+## Material and Methods
+
+## Results
+
+## Discussion
+
+## Appendix
+
+### Wordcount
+
+<!-- after installing the wordcountadding, remove the line "#| eval: false" -->
+
+```{r}
+#| eval: false
+wordcountaddin::word_count("index.qmd")
+```
+
+
